@@ -13,7 +13,7 @@ func main() {
 	p := make([]int, 3, 9)
 	fmt.Println(len(p))
 
-	smallest := 100
+	smallest := x[0]
 
 	for _, value := range x {
 		if value < smallest {
